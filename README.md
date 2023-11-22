@@ -13,10 +13,10 @@ The problem facing the research: What features does the discriminator look for t
 https://www.kaggle.com/datasets/darren2020/ct-to-mri-cgan
 # Results:
 The model has been tested in generating a number of CT scan images from MRI images, and vice versa, and the results are shown in the samples that we showed.
-| Results | #1    | #2    |
-| :---:   | :---: | :---: |
-| CT TO MRI |![download (23)](https://github.com/kaledhoshme123/VAE-CycleGAN-MRI-CT-Scan-Images/assets/108609519/06bd2425-245d-45ce-b11b-19d88ce1a01e)|![download (24)](https://github.com/kaledhoshme123/VAE-CycleGAN-MRI-CT-Scan-Images/assets/108609519/40021637-e449-489e-87c5-20f691044ad3)|
-| MRI TO CT |![download (25)](https://github.com/kaledhoshme123/VAE-CycleGAN-MRI-CT-Scan-Images/assets/108609519/f51aae03-85c8-4f7f-8385-076cfa7f4448)|![download (26)](https://github.com/kaledhoshme123/VAE-CycleGAN-MRI-CT-Scan-Images/assets/108609519/74e86394-af1d-4d18-a2a5-880ab93285df)|
+| Results | #1    |
+| :---:   | :---: |
+| CT TO MRI |![download (23)](https://github.com/kaledhoshme123/VAE-CycleGAN-MRI-CT-Scan-Images/assets/108609519/06bd2425-245d-45ce-b11b-19d88ce1a01e)|
+| MRI TO CT |![download (25)](https://github.com/kaledhoshme123/VAE-CycleGAN-MRI-CT-Scan-Images/assets/108609519/f51aae03-85c8-4f7f-8385-076cfa7f4448)|
 
 # Test Generation:
 - In order to use a more reliable methodology in evaluating the performance of the model that I trained, I used images that the model did not see during training, and for each image I did the following:
