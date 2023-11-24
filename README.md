@@ -28,8 +28,8 @@ The model has been tested in generating a number of CT scan images from MRI imag
 
 | Test Generation | #1    |
 | :---:   | :---: |
-| Fisrt Case | ![download (27)](https://github.com/kaledhoshme123/VAE-CycleGAN-MRI-CT-Scan-Images/assets/108609519/3a672b9b-088c-4c95-991b-68b7c437bc2c) |
+| First Case | ![download (27)](https://github.com/kaledhoshme123/VAE-CycleGAN-MRI-CT-Scan-Images/assets/108609519/3a672b9b-088c-4c95-991b-68b7c437bc2c) |
 | Second Case | ![download (28)](https://github.com/kaledhoshme123/VAE-CycleGAN-MRI-CT-Scan-Images/assets/108609519/7c4475f7-dc26-4d59-8473-3116f3f4ea92)|
 
 # Conclusion
-- This measure is considered acceptable for studying the success of the obstetrics process, but it is not a source of trust for me yet, because the number of samples is small, and therefore in this case the proposed model is forced to study the convergence between the two probability distributions (CT images and MRI images), and therefore in this case, given the lack of samples and the damage The model is to reduce the value of the loss in each round. Some cases may be incorrect during the projection process, but since the samples are small, the result is considered acceptable.
+- This measure is considered acceptable for studying the success of the obstetrics process, but it is not a source of trust for me yet, because the number of samples is small, and therefore in this case the proposed model is forced to study the convergence between the two probability distributions (CT images and MRI images), and therefore in this case, given the lack of samples and the damage The model is to reduce the value of the loss in each epoch. Some cases may be incorrect during the projection process, but since the samples are small, the result is considered acceptable.
