@@ -20,7 +20,7 @@ The model has been tested in generating a number of CT scan images from MRI imag
 
 # Test Generation:
 - In order to use a more reliable methodology in evaluating the performance of the model that I trained, I used images that the model did not see during training, and for each image I did the following:
-# The Fisrt Case:
+# The First Case:
 - I have CT images that I converted into an MRI, then I recovered the CT image from the MRI images, and then I studied the difference between the basic CT images and the CT images that were retrieved from the MRI that was generated from the CT images.
 - We note here that the loss is small for the CT images, and this indicates that the trained model was able to study the correspondence of the two probability distributions for each type.
 # The second case:
