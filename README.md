@@ -33,3 +33,13 @@ The model has been tested in generating a number of CT scan images from MRI imag
 
 # Conclusion
 - This measure is considered acceptable for studying the success of the obstetrics process, but it is not a source of trust for me yet, because the number of samples is small, and therefore in this case the proposed model is forced to study the convergence between the two probability distributions (CT images and MRI images), and therefore in this case, given the lack of samples and the damage The model is to reduce the value of the loss in each epoch. Some cases may be incorrect during the projection process, but since the samples are small, the result is considered acceptable.
+# Note: Please make sure that
+tensorflow==2.15.0
+
+tensorflow-probability==0.23.0
+## You can download the required version through
+!pip install tensorflow==2.15.0
+
+!pip install tensorflow-probability==0.23.0
+
+for the code to work.
